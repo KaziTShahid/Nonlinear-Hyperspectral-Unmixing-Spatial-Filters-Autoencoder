@@ -23,7 +23,11 @@ Once you download other datasets, make sure to include the filenames in the "dat
 # Citation
 
 If you wish to use this code, please cite the link where the datasets come from.
+
 http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes
+
 Also, cite the link where this code was from
+
 https://github.com/KaziTShahid/Nonlinear-Hyperspectral-Unmixing-Spatial-Filters-Autoencoder
+
 The paper published which uses this code will be added later on.
