@@ -13,9 +13,11 @@ http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes
 Once you download other datasets, make sure to include the filenames in the "dataset_choices" variable.
 
 "rbf_filter_kazi.py" is the first layer, creating mixed pixels that are a weighted average of itself and its surrounding neighborhood.
+
 "rbf_kazi.py" is the second layer, finding abundances.
 
 "nonlin_layer_kazi.py" unmixes according to the Fan or the Bilinear model.
+
 "ppnm_layer_kazi.py" unmixes according to the PPNM model. The model to choose will come from the "mixing_models" variable.
 
 # Citation
