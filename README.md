@@ -1,6 +1,6 @@
 # Nonlinear-Hyperspectral-Unmixing-Spatial-Filters-Autoencoder
 
-This is the code for an autoencoder that performs nonlinear pixel unmixing on hyperspectral images (based on the Fan, Bilinear, PPNM models, and also higher order nonlinear terms), that can have corrupted pixels that have 0 value. This utilizes spatial information by implementing an averaging filter 
+This is the code for an autoencoder that performs nonlinear pixel unmixing on hyperspectral images (based on the Fan, Bilinear, PPNM models, and also higher order nonlinear terms), that can have corrupted pixels that have 0 value. This utilizes spatial information by implementing a weighted averaging filter based on RBF distances.
 
 The three mixing models used here are the Fan, Bilinear and PPNM models.
 
