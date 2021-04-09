@@ -658,9 +658,7 @@ for dead_pixel_percentage_index in range(len(dead_pixel_percentages)):
                             
                         def __init__(self):
                             super(Nonlinear_Unmixing_AutoEndcoder, self).__init__()
-                            
-                            self.flatten_layer = tf.keras.layers.Flatten()
-                            
+                                                        
                             self.rbf_filter = rbf_filter(datacube)
                             
                             self.rbflayer = RBFLayer(est_num_classes, betas_kmeans, centers = kmeans_centers_ordered)
