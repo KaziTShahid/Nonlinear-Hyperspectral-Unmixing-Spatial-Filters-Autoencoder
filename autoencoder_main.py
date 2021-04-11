@@ -654,10 +654,10 @@ for dead_pixel_percentage_index in range(len(dead_pixel_percentages)):
                     #%% defining the autoencoder
                     
                     
-                    class Nonlinear_Unmixing_AutoEndcoder(tf.keras.Model):
+                    class Nonlinear_Unmixing_AutoEncoder(tf.keras.Model):
                             
                         def __init__(self):
-                            super(Nonlinear_Unmixing_AutoEndcoder, self).__init__()
+                            super(Nonlinear_Unmixing_AutoEncoder, self).__init__()
                                                         
                             self.rbf_filter = rbf_filter(datacube)
                             
@@ -726,7 +726,7 @@ for dead_pixel_percentage_index in range(len(dead_pixel_percentages)):
                         
                         #%% defining parameters
                         
-                        model = Nonlinear_Unmixing_AutoEndcoder()
+                        model = Nonlinear_Unmixing_AutoEncoder()
                         global_step = tf.Variable(0)
                         reconstructed_pixels = []
                         all_estimated_endmembers = []
