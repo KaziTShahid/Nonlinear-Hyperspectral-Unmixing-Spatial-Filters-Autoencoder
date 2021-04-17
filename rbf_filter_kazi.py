@@ -14,7 +14,7 @@ datacube = cube of hyperspectral pixels depicting a neighborhood.
 Dimensions of "datacube" are n*n*B, where n is an odd number, and B represents number of spectral bands
 
 Weights:
-betas_weights = weights for averaging. Dimensions are n*n, which means this will be repeated B times throughout the datacube
+betas_weights = weights for averaging. Dimensions are batch_size*n*n, which means this will be repeated B times throughout the datacube
 
 If you wish to use this code, please cite the URL given above for the dataset, and also the URL where this code was downloaded from:
 https://github.com/KaziTShahid/Nonlinear-Hyperspectral-Unmixing-Spatial-Filters-Autoencoder
