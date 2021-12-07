@@ -32,4 +32,6 @@ Also, cite the link where this code was from
 
 https://github.com/KaziTShahid/Nonlinear-Hyperspectral-Unmixing-Spatial-Filters-Autoencoder
 
-The paper published which uses this code will be added later on.
+Also, please cite the paper published, which can be found in this link
+
+https://ieeexplore.ieee.org/abstract/document/9633169
