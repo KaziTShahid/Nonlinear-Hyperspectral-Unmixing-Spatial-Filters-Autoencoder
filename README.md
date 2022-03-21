@@ -22,6 +22,14 @@ Once you download other datasets, make sure to include the filenames in the "dat
 
 "ppnm_layer_kazi.py" unmixes according to the PPNM model. The model to choose will come from the "mixing_models" variable.
 
+# Additional Notes
+
+The module "VCA" being imported comes from the link below
+
+https://github.com/Laadr/VCA
+
+Please ensure to give appropriate credit if this code is used.
+
 # Citation
 
 If you wish to use this code, please cite the link where the datasets come from.
